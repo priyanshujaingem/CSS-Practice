@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+.right-section {
+  display: flex;
+  overflow: auto; /* Adding scrollbar in case of more content */
+  scrollbar-width: none; /* Hide Scrollbar in firefox */
+  position: relative; /* To set the position wrt left-menu */
+  left: 20%; /* To set the position wrt left-menu */
+  background-color: chartreuse;
+  color: white;
+  width: 80%;
+  /* height: 100vh; */
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+
+/* Hide Scrollbar in Chrome Safari */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.upper-head {
+  /* border: 1px solid black; */
+  padding: 16px 0px;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+  /* background-color: aquamarine; */
+  height: 3%;
+}
+.lower-head {
+  display: flex;
+  /* border: 1px solid black; */
+  /* background-color: chartreuse; */
+  height: 10%;
+}
+
+.left-menu-section {
+  position: fixed; /* To set the left menu fixed */
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  color: white;
+  width: 20%;
+  height: 100vh; /* To set the height to 100% since this is fixed and after scroll it doesn't matter how much height it covers */
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  height: 3%;
+  /* border: 1px solid black; */
+}
+.dp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  padding: 24px;
+  /* border: 1px solid black; */
+}
+.list-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 16px;
+  /* border: 1px solid black; */
+}
+.list-items ul li {
+  padding: 20px 16px;
+  list-style: none;
+}
+.main {
+  /* border: 1px solid black; */
+  /* background-color: red; */
+  flex-grow: 1;
+}
+.bulletin {
+  /* border: 1px solid black; */
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.shift-mon {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 40%;
+}
+.search-home {
+  display: flex;
+  width: 40%;
+  /* border: 1px solid black; */
+  /* flex-grow: 1; */
+}

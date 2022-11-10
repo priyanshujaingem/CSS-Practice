@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 12vh;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+}
+
+.nav-bar ul {
+    width: 100%;
+    display: flex;
+}
+
+.nav-items {
+    justify-content: flex-end;
+}
+
+.container ul li {
+    list-style: none;
+    margin: 0px 16px;
+    cursor: pointer;
+}
