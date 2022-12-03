@@ -1,0 +1,51 @@
+.chair-img {
+  width: 440px;
+  height: 440px;
+  border-radius: 12px;
+}
+
+.init {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+b {
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.shop-now {
+  background-color: #087f5b;
+  color: white;
+  border-radius: 24px !important;
+}
+.review-card {
+  background-color: #087f5b;
+  border-radius: 12px;
+  gap: 3rem;
+}
+.review-msg {
+  color: white;
+}
+.w250 {
+  width: 250px;
+}
+.h200 {
+  height: 200px;
+}
+.br-12 {
+  border-radius: 12px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.chair-card {
+  box-shadow: 0px 0px 12px grey;
+}
+.brb-0 {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
