@@ -1,3 +1,8 @@
+.main {
+  width: 900px;
+  margin: 0 auto;
+  /* padding: 0 200px; */
+}
 .chair-img {
   width: 440px;
   height: 440px;
